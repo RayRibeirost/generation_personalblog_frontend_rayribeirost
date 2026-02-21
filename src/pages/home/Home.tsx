@@ -1,4 +1,4 @@
-import React from "react";
+import ListaPostagem from "../../components/postagem/listapostagem/ListaPostagem";
 
 function Home() {
   return (
@@ -27,6 +27,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <ListaPostagem />
     </>
   );
 }
