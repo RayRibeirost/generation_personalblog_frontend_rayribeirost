@@ -1,5 +1,8 @@
 export default interface UsuarioLogin {
-    user: string;
-    password: string;
-    token: string;
+  id: number;
+  username: string;
+  user: string;
+  password: string;
+  photo: string;
+  token: string;
 }
