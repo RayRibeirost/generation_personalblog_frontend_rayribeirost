@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, type ReactNode, useState } from "react";
 import type UsuarioLogin from "../models/UsuarioLogin";
 import { login } from "../services/Service";
@@ -20,7 +21,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     const [usuario, setUsuario] = useState<UsuarioLogin>({
         id: 0,
         username: '',
-        email: '',
+        user: '',
         password: '',
         photo: '',
         token: ''
@@ -41,7 +42,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         setUsuario({
           id: 0,
           username: "",
-          email: "",
+          user: "",
           password: "",
           photo: "",
           token: "",

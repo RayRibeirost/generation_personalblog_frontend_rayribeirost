@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useNavigate } from "react-router-dom"
 import CardTema from "../cardtema/CardTema"
 import { useContext, useEffect, useState } from "react"
